@@ -2,7 +2,7 @@
   <div class="grid grid-cols-6 w-full h-full">
     <div class="flex flex-col"></div>
     <div class="slidev-layout company col-span-4 flex flex-col text-center space-y-4 items-center w-full h-full">
-      <div class="flex-col w-full flex items-center">
+      <div class="flex-col w-full flex items-center pt-4">
         <slot name="logo"><img :src="logo" width="250" class="" :alt="name"></slot>
       </div>
       <div class="flex-col w-full mb-auto">

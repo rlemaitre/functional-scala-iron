@@ -30,7 +30,7 @@ const imageSrc = resolveAssetUrl(props.image);
   <div class="grid grid-cols-6">
     <div class="flex flex-col"></div>
     <div class="slidev-layout profile col-span-4 flex flex-col text-center space-y-4">
-      <div class="w-full flex flex-col items-center">
+      <div class="w-full flex flex-col items-center pt-4">
         <h1>{{ speaker }}</h1>
       </div>
 

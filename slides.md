@@ -1,7 +1,7 @@
 ---
 theme: .
 lineNumbers: true
-colorSchema: light
+colorSchema: auto
 highlighter: shiki
 titleTemplate: '%s'
 title: Armored Type Safety with Iron for Functional Scala 2024
@@ -363,6 +363,14 @@ layout: default
 |               VC + Require               | <carbon-checkmark-filled class="text-green-600"/> |     <carbon-checkmark-filled class="text-green-600"/>      | <carbon-checkmark-filled class="text-green-600"/> |          <carbon-close-filled class="text-red-600"/>          |    <carbon-close-filled class="text-red-600"/>    |    <carbon-close-filled class="text-red-600"/>    |    <carbon-close-filled class="text-red-600"/>     |
 |               VC + Either                | <carbon-checkmark-filled class="text-green-600"/> |     <carbon-checkmark-filled class="text-green-600"/>      | <carbon-checkmark-filled class="text-green-600"/> |       <carbon-checkmark-filled class="text-green-600"/>       |    <carbon-close-filled class="text-red-600"/>    |    <carbon-close-filled class="text-red-600"/>    |    <carbon-close-filled class="text-red-600"/>     |
 |               Opaque types               | <carbon-checkmark-filled class="text-green-600"/> |     <carbon-checkmark-filled class="text-green-600"/>      | <carbon-checkmark-filled class="text-green-600"/> |       <carbon-checkmark-filled class="text-green-600"/>       | <carbon-checkmark-filled class="text-green-600"/> |    <carbon-close-filled class="text-red-600"/>    |    <carbon-close-filled class="text-red-600"/>     |
+
+<span class="text-2 text-gray">
+
+|               |                           |               |                             |                |                |                          |                             
+|---------------|---------------------------|---------------|-----------------------------|----------------|----------------|--------------------------|
+| 1: Legibility | 2: Strict Parameter Order | 3: Validation | 4: Referential Transparency | 5: Performance | 6: Conciseness | 7: Compile-Time checking |                             
+
+</span>
 
 <!--
 
@@ -813,6 +821,15 @@ layout: default
 |               Opaque types               | <carbon-checkmark-filled class="text-green-600"/> |     <carbon-checkmark-filled class="text-green-600"/>      | <carbon-checkmark-filled class="text-green-600"/> |       <carbon-checkmark-filled class="text-green-600"/>       | <carbon-checkmark-filled class="text-green-600"/> |    <carbon-close-filled class="text-red-600"/>    |    <carbon-close-filled class="text-red-600"/>     |
 | <span class="accent fw-bold">Iron</span> | <carbon-checkmark-filled class="text-green-600"/> |     <carbon-checkmark-filled class="text-green-600"/>      | <carbon-checkmark-filled class="text-green-600"/> |       <carbon-checkmark-filled class="text-green-600"/>       | <carbon-checkmark-filled class="text-green-600"/> | <carbon-checkmark-filled class="text-green-600"/> | <carbon-checkmark-filled class="text-green-600"/>  |
 
+
+<span class="text-2 text-gray">
+
+|               |                           |               |                             |                |                |                          |                             
+|---------------|---------------------------|---------------|-----------------------------|----------------|----------------|--------------------------|
+| 1: Legibility | 2: Strict Parameter Order | 3: Validation | 4: Referential Transparency | 5: Performance | 6: Conciseness | 7: Compile-Time checking |                             
+
+</span>
+
 <!--
 
 So if I take the summary table we saw before we see that Iron fulfill all requirements we have
@@ -1089,18 +1106,17 @@ And most importantly Scala 3 type system is incredibly powerful so use it at its
 -->
 
 ---
-layout: cover
+layout: default
 coverDate: ''
 ---
 
-<h1>Any questions?</h1>
+<h1>Thank you!</h1>
 
 <div class="grid grid-cols-2">
   <div>
     <figure class="flex justify-center items-center text-center">
       <img alt="Slides available at https://scalamatsuri.rlemaitre.com" src="/images/qrcode-slides.png" width="250"/>
     </figure>
-    <a href="https://scalamatsuri.rlemaitre.com">https://scalamatsuri.rlemaitre.com</a>
   </div>
   <div class="grid grid-cols-1 justify-center content-center">
     <p>
@@ -1123,8 +1139,6 @@ coverDate: ''
     </p>
   </div>
 </div>
-
-<h1>Thank you!</h1>
 
 <!--
 
